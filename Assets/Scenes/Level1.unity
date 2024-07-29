@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1239,6 +1238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   jumpSpeed: 7
+  fallSpeed: 6
 --- !u!1001 &371752020
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6835,7 +6835,7 @@ PrefabInstance:
     - target: {fileID: 4413318001715385968, guid: b02615315171cd74583dbdb6c931985a,
         type: 3}
       propertyPath: m_FlipX
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5436081165980059329, guid: b02615315171cd74583dbdb6c931985a,
         type: 3}
@@ -6845,7 +6845,7 @@ PrefabInstance:
     - target: {fileID: 6235854300798674961, guid: b02615315171cd74583dbdb6c931985a,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6235854300798674961, guid: b02615315171cd74583dbdb6c931985a,
         type: 3}
